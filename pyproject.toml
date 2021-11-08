@@ -14,8 +14,8 @@ aioitertools = "^0.8.0"
 "async-timeout" = ">=3.0.0"
 attrs = ">=18.2.0"
 click = ">=8.0"
-"discord-ext-typed-commands" = "^1.0.3"
-"discord.py" = "~1.7.0"
+"discord-ext-typed-commands" = {git = "https://github.com/gpontesss/discord-ext-typed-commands.git"}
+"discord.py" = {git = "https://github.com/Rapptz/discord.py.git"}
 toml = "^0.10.2"
 pendulum = "~2.1.2"
 asyncpg = {version = ">=0.22.0", optional = true}
@@ -31,7 +31,7 @@ uvloop = ["uvloop"]
 
 [tool.poetry.dev-dependencies]
 asyncpg-stubs = {git = "https://github.com/bryanforbes/asyncpg-stubs.git", rev = "0894bcb5f773d413f54bc956b83880f225258337"}
-"discord.py-stubs" = {version = "~1.7.3"}
+"discord.py-stubs" = {git = "git@github.com:gpontesss/discord.py-stubs.git"}
 gino-stubs = {git = "https://github.com/bryanforbes/gino-stubs.git", rev = "5914eaf2c5c9624cc457faa3a3fef629f027f830"}
 asynctest = "~0.13.0"
 black = "^21.7b0"
